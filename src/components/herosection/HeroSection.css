@@ -1,0 +1,63 @@
+/* HeroSection Component CSS */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+  }
+  
+  .brand-name {
+    font-size: 4rem;
+    margin-bottom: 2px;
+  }
+  
+  .hero-paragraph {
+    font-size: 1.5rem;
+  }
+  
+  .hero-image img {
+    width: 600px;
+    height: auto;
+  }
+
+  .hero-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-section {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+    }
+    .brand-name {
+      font-size: 1.4rem;
+      text-align: center;
+      margin-top: 15px;
+    }
+  
+    .hero-paragraph {
+      font-size: 1.2rem;
+      text-align: center;
+      text-align: justify;
+      line-height: 1.9rem;
+      margin-top: 10px;
+    }
+
+    .hero-image img {
+      width: 300px;
+      height: auto;
+    }
+
+    .hero-content{
+      padding: 0px;
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,46 @@
+/* OurWork Component CSS */
+
+.our-work {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+  }
+  
+  .carousel-container {
+    margin-top: 2rem;
+  }
+  
+  .carousel-container .carousel {
+    width: 100%;
+  }
+  
+  .carousel-container .carousel .slide {
+    background-color: transparent;
+  }
+  
+  .carousel-container .carousel .slide img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section-title {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .section-description {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  
